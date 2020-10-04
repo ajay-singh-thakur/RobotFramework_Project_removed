@@ -4,7 +4,8 @@ Resource    ../Resources/LoginKeywords.robot
 Resource    ../Properties/LoginAndCred.robot
 
 *** Variables ***
-${browser}  headlessfirefox
+#${browser}  headlessfirefox
+${browser}  chrome
 ${url}      https://opensource-demo.orangehrmlive.com/
 ${user}     Admin
 ${pswd}     admin123
