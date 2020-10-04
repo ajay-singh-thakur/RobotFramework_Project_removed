@@ -5,7 +5,8 @@ Resource    ../Resources/RegistrationKeywords.robot
 
 
 *** Variables ***
-${browser}      headlesschrome
+#${browser}      headlesschrome
+${browser}  chrome
 ${url}          http://demowebshop.tricentis.com/register
 
 
