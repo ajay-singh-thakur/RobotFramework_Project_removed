@@ -1,0 +1,9 @@
+1601825203347	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Ajay\\AppData\\Local\\Temp\\rust_mozprofile.pQkKgVs6AOTF"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601825227497	Marionette	INFO	Listening on port 55964
+1601825229475	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601825256618	Marionette	INFO	Stopped listening on port 55964
+JavaScript error: https://opensource-demo.orangehrmlive.com/webres_5f61a473615588.75870608/js/jquery/jquery-3.4.1.min.js, line 2: NS_ERROR_NOT_INITIALIZED: 
+[Parent 15444, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166

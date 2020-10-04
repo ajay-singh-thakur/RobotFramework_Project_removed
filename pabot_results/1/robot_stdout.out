@@ -1,0 +1,17 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.RegistrationTCs                                                        
+==============================================================================
+Registration Test                                                     | FAIL |
+Page should have contained text 'Your registration completed' but did not.
+------------------------------------------------------------------------------
+Suites.RegistrationTCs                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  E:\SeleniumFramework\Robot\POMtestRobot\pabot_results\1\output.xml
