@@ -5,17 +5,18 @@ Resource    ../Resources/RegistrationKeywords.robot
 
 
 *** Variables ***
-${browser}      headlesschrome
+${browser}      chrome
 ${url}          http://demowebshop.tricentis.com/register
 
 
 *** Test Cases ***
-Registration Test
+TC2 Registration Test
     Open my URL     ${url}      ${browser}
     Select Gender
+    sleep   5
     Set FirstName       Ajay
     Set LastName        Thakur
-    Set Email ID        aj1238@mymail.com
+    Set Email ID        # calling random email id generate function, so no need to give email id here
     Set Password        123456
     Confirm Password    123456
     Click On Register Button

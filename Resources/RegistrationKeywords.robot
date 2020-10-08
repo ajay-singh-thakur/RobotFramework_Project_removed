@@ -10,20 +10,19 @@ Open my URL
      maximize browser window
 
 Select Gender
-#      click element   ${radio_selectGender}
       select radio button    Gender  M
 
 Set FirstName
     [Arguments]     ${firstname}
-    input text      ${text_FirstName}  ${firstname}
+    input text      ${text_FirstName}      ${firstname}
 
 Set LastName
     [Arguments]     ${lastname}
-    input text      ${text_LastName}   ${lastname}
+    input text      ${text_LastName}        ${lastname}
 
 Set Email ID
-    [Arguments]     ${email}
-    input text      ${text_EmailID}    ${email}
+#    [Arguments]     ${email}
+    input text      ${text_EmailID}     ${EmailID}
 
 Set Password
     [Arguments]     ${pswd}
