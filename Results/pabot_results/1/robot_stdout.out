@@ -3,8 +3,9 @@ Suites
 ==============================================================================
 Suites.RegistrationTCs                                                        
 ==============================================================================
-Registration Test                                                     | FAIL |
-Page should have contained text 'Your registration completed' but did not.
+TC2 Registration Test                                                 | FAIL |
+WebDriverException: Message: disconnected: Unable to receive message from renderer
+  (Session info: chrome=85.0.4183.121)
 ------------------------------------------------------------------------------
 Suites.RegistrationTCs                                                | FAIL |
 1 critical test, 0 passed, 1 failed
